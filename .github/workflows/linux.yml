@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Build and Run
+    - name: Build
       run: |
         sudo apt install -y liblapack-dev
         mkdir build
