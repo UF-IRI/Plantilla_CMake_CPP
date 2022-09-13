@@ -1,5 +1,8 @@
 # Configuración del Proyecto
-[![build](https://github.com/UF-IRI/Plantilla_CMake_Cpp/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/UF-IRI/Plantilla_CMake_Cpp/actions/workflows/build.yml)
+
+[![Linux Build](https://github.com/UF-IRI/Plantilla_CMake_Cpp/actions/workflows/linux.yml/badge.svg)](https://github.com/UF-IRI/Plantilla_CMake_Cpp/actions/workflows/linux.yml)
+[![MacOS Build](https://github.com/UF-IRI/Plantilla_CMake_Cpp/actions/workflows/macos.yml/badge.svg)](https://github.com/UF-IRI/Plantilla_CMake_Cpp/actions/workflows/macos.yml)
+[![Windows Build](https://github.com/UF-IRI/Plantilla_CMake_Cpp/actions/workflows/windows.yml/badge.svg)](https://github.com/UF-IRI/Plantilla_CMake_Cpp/actions/workflows/windows.yml)
 
 ---
 Ejecutar siguiente script en Consola:
