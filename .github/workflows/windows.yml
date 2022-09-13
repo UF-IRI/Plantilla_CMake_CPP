@@ -13,6 +13,7 @@ jobs:
     
     - name: ctest
       run: |
+        ls unit-test
         cd unit-test
         ctest
       
