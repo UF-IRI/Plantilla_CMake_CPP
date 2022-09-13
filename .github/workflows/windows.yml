@@ -10,7 +10,7 @@ jobs:
     - name: build and run
       run: |
         cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -G "Visual Studio 17 2022"
-        cmake --build .
+        cmake --build -DCMAKE_BUILD_TYPE=Release -j .
     
     - name: ctest
       run: |

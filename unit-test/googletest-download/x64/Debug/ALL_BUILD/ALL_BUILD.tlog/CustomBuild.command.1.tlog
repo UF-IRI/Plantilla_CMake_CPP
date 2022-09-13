@@ -1,0 +1,10 @@
+^C:\USERS\USUARIO\DOCUMENTS\FAVALORO\AYUDANTIA\TEMPLATE\UNIT-TEST\GOOGLETEST-DOWNLOAD\CMAKELISTS.TXT
+setlocal
+C:\dev\cmake\bin\cmake.exe -SC:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download -BC:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download --check-stamp-file C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

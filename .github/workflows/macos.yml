@@ -3,13 +3,12 @@ name: Linux Build
 on: [push]
 
 jobs:
-  build-ubuntu:
-    runs-on: ubuntu-latest
+  build-macos:
+    runs-on: macos-latest
     steps:
     - uses: actions/checkout@v1
     - name: Build and Run
       run: |
-        sudo apt install -y liblapack-dev
         mkdir build
         cd build
         cmake .. -DCMAKE_BUILD_TYPE=Release

@@ -1,0 +1,150 @@
+^C:\USERS\USUARIO\DOCUMENTS\FAVALORO\AYUDANTIA\TEMPLATE\UNIT-TEST\GOOGLETEST-DOWNLOAD\CMAKEFILES\9EF0B1FF1093DC55746A66C5A03CC27A\GOOGLETEST-MKDIR.RULE
+setlocal
+C:\dev\cmake\bin\cmake.exe -P C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/googletest-prefix/tmp/googletest-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -E touch C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USUARIO\DOCUMENTS\FAVALORO\AYUDANTIA\TEMPLATE\UNIT-TEST\GOOGLETEST-DOWNLOAD\CMAKEFILES\9EF0B1FF1093DC55746A66C5A03CC27A\GOOGLETEST-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Usuario\Documents\Favaloro\Ayudantia\Template\unit-test
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -P C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/googletest-prefix/tmp/googletest-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -E touch C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USUARIO\DOCUMENTS\FAVALORO\AYUDANTIA\TEMPLATE\UNIT-TEST\GOOGLETEST-DOWNLOAD\CMAKEFILES\9EF0B1FF1093DC55746A66C5A03CC27A\GOOGLETEST-UPDATE.RULE
+setlocal
+cd C:\Users\Usuario\Documents\Favaloro\Ayudantia\Template\unit-test\googletest-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -P C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/googletest-prefix/tmp/googletest-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USUARIO\DOCUMENTS\FAVALORO\AYUDANTIA\TEMPLATE\UNIT-TEST\GOOGLETEST-DOWNLOAD\CMAKEFILES\9EF0B1FF1093DC55746A66C5A03CC27A\GOOGLETEST-PATCH.RULE
+setlocal
+C:\dev\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -E touch C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USUARIO\DOCUMENTS\FAVALORO\AYUDANTIA\TEMPLATE\UNIT-TEST\GOOGLETEST-DOWNLOAD\CMAKEFILES\9EF0B1FF1093DC55746A66C5A03CC27A\GOOGLETEST-CONFIGURE.RULE
+setlocal
+cd C:\Users\Usuario\Documents\Favaloro\Ayudantia\Template\unit-test\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -E touch C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USUARIO\DOCUMENTS\FAVALORO\AYUDANTIA\TEMPLATE\UNIT-TEST\GOOGLETEST-DOWNLOAD\CMAKEFILES\9EF0B1FF1093DC55746A66C5A03CC27A\GOOGLETEST-BUILD.RULE
+setlocal
+cd C:\Users\Usuario\Documents\Favaloro\Ayudantia\Template\unit-test\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -E touch C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USUARIO\DOCUMENTS\FAVALORO\AYUDANTIA\TEMPLATE\UNIT-TEST\GOOGLETEST-DOWNLOAD\CMAKEFILES\9EF0B1FF1093DC55746A66C5A03CC27A\GOOGLETEST-INSTALL.RULE
+setlocal
+cd C:\Users\Usuario\Documents\Favaloro\Ayudantia\Template\unit-test\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -E touch C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USUARIO\DOCUMENTS\FAVALORO\AYUDANTIA\TEMPLATE\UNIT-TEST\GOOGLETEST-DOWNLOAD\CMAKEFILES\9EF0B1FF1093DC55746A66C5A03CC27A\GOOGLETEST-TEST.RULE
+setlocal
+cd C:\Users\Usuario\Documents\Favaloro\Ayudantia\Template\unit-test\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -E touch C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USUARIO\DOCUMENTS\FAVALORO\AYUDANTIA\TEMPLATE\UNIT-TEST\GOOGLETEST-DOWNLOAD\CMAKEFILES\E6D0E7A1DDFF63DBADAB64980D81FA4F\GOOGLETEST-COMPLETE.RULE
+setlocal
+C:\dev\cmake\bin\cmake.exe -E make_directory C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -E touch C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/CMakeFiles/Debug/googletest-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\dev\cmake\bin\cmake.exe -E touch C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USUARIO\DOCUMENTS\FAVALORO\AYUDANTIA\TEMPLATE\UNIT-TEST\GOOGLETEST-DOWNLOAD\CMAKEFILES\B9CD1E61CD1E1AF928278BE0B9F4EA92\GOOGLETEST.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USUARIO\DOCUMENTS\FAVALORO\AYUDANTIA\TEMPLATE\UNIT-TEST\GOOGLETEST-DOWNLOAD\CMAKELISTS.TXT
+setlocal
+C:\dev\cmake\bin\cmake.exe -SC:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download -BC:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download --check-stamp-file C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-download/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
