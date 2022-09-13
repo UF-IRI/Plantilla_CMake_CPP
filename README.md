@@ -1,18 +1,17 @@
-# CMake C++ Project Template ![build](https://github.com/mmorse1217/cmake-project-template/workflows/build/badge.svg)
+# Plantilla Proyecto de CMake C++ [![build](https://github.com/UF-IRI/Plantilla_CMake_Cpp/actions/workflows/build.yml/badge.svg)](https://github.com/UF-IRI/Plantilla_CMake_Cpp/actions/workflows/build.yml)
 
 
-A base C++ project built with documented CMakeLists.txt
+## Template base para Alumnos de IRI
 
-### Compiling, installing and running your code
-To compile the project, run the following in the project root:
-```
-    mkdir build
-    cd build
-    cmake ..
-    make
-```
+### Requisitos
+- Visual Studio 2022
+- Visual Studio Code con CMake
+- CLion
+- Qt Creator con CMake
 
-To run unit tests via CTest, again run the following in the `build/` directory:
+### Unit Test
+
+Para correr el unit test con CTest, se debe usar el siguiente comando en el directorio `build/`:
 ```
     ctest
 ```
@@ -20,7 +19,7 @@ To run unit tests via CTest, again run the following in the `build/` directory:
 To add additional dependencies via `find_package`, be sure to also include them in `cmake/CMakeDemo-config.cmake`. 
 `LAPACK` is included as an example. To import a project built with this template in another CMake project, be sure to add the `cmake/FindCMakeDemo.cmake` file to that project's `cmake/` directory.
 
-File structure:
+Estructura:
 ```
     ├── CMakeLists.txt
     ├── LICENSE

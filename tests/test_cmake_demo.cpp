@@ -5,13 +5,12 @@
 #include <string>
 #include <complex>
 
-TEST_CASE("Test a_library_function", "[unit-test]"){
+TEST_CASE("Test a_library_function", "[unit-test]") {
     auto return_string = a_library_function();
     REQUIRE(return_string == "a function specified in the source code");
 }
 
-TEST_CASE("Test add", "[unit-test]"){
-    // not very good tests, but oh well...
+TEST_CASE("Test add", "[unit-test]") {
     REQUIRE(add(2, 3) == 5);
     REQUIRE(add(2., 3.) == 5.);
     REQUIRE(add(0, 0) == 0);
