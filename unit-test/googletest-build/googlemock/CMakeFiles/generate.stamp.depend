@@ -1,8 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/googletest-src/googlemock/CMakeLists.txt
-C:/dev/cmake/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake
-C:/dev/cmake/share/cmake-3.23/Modules/CheckIncludeFile.cmake
-C:/dev/cmake/share/cmake-3.23/Modules/CheckLibraryExists.cmake
-C:/dev/cmake/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
-C:/dev/cmake/share/cmake-3.23/Modules/FindPackageMessage.cmake
-C:/dev/cmake/share/cmake-3.23/Modules/FindThreads.cmake

@@ -1,5 +1,0 @@
-if(EXISTS "C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/unit-test[1]_tests.cmake")
-  include("C:/Users/Usuario/Documents/Favaloro/Ayudantia/Template/unit-test/unit-test[1]_tests.cmake")
-else()
-  add_test(unit-test_NOT_BUILT unit-test_NOT_BUILT)
-endif()
